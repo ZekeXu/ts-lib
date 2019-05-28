@@ -1,0 +1,43 @@
+{
+  "name": "ts-lib",
+  "version": "0.1.0",
+  "description": "desc",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --content-base examples --mode development --config config/webpack.dev.js",
+    "build": "rm -rf lib && webpack --mode production --config config/webpack.lib.js",
+    "format": "tslint -c tslint.json --fix -p .",
+    "package": "yarn pack --filename lib/ts-lib-1.0.0.tgz",
+    "prepublishOnly": "yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "ZekeXu18 <zekexu18@outlook.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "fsevents": "^2.0.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "prettier": "^1.14.3",
+    "sass": "^1.14.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.1.6",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
