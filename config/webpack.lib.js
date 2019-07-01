@@ -8,10 +8,7 @@ module.exports = {
       filename: 'index.js',
       path: path.resolve(process.cwd(), 'lib'),
   },
-  externals: {
-    'uuid': 'umd uuid',
-    'mousetrap': 'umd mousetrap'
-  },
+  externals: {},
   devtool: 'inline-source-map',
   module: {
     rules: [
