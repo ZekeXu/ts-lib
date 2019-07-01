@@ -1,20 +1,23 @@
 {
   "compilerOptions": {
-    "outDir": "",
+    "outDir": "lib",
     "noImplicitAny": true,
+    "removeComments": true,
     "sourceMap": true,
-    "module": "commonjs",
+    "module": "es6",
     "lib": [
       "dom",
-      "esnext"
+      "esnext",
     ],
-    "target": "es5",
+    "target": "es6",
     "allowJs": false,
     "declaration": true,
-    "declarationDir": "lib"
+    "declarationDir": "lib",
   },
   "exclude": [
     "node_modules",
-    "examples"
+    "examples",
+    "**/*.spec.ts",
+    "**/*.test.ts"
   ]
 }

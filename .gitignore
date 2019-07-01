@@ -9,3 +9,4 @@ lib
 .DS_Store
 /*.d.ts
 /*.tgz
+yarn.lock
