@@ -1,0 +1,11 @@
+plugins:
+  stylelint-scss
+extends:
+  stylelint-config-recommended-scss
+rules:
+  at-rule-blacklist: debug
+  selector-pseudo-class-no-unknown:
+    - true
+    - ignorePseudoClasses:
+      - "global"
+      - "local"
