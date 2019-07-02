@@ -32,6 +32,11 @@ commands:
       - run:
           name: Build packages
           command: yarn build
+  coverage:
+    steps:
+      - run:
+          name: UT Coverage
+          command: yarn coverage
   run-node:
     steps:
       - checkout
@@ -41,6 +46,7 @@ commands:
       # - audit # lodash high error
       - test
       - build
+      - coverage
 
 jobs:
   v10:
