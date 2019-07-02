@@ -11,7 +11,7 @@
     "format-style": "prettier src/**/*.css src/**/*.scss --write && stylelint src/index.scss --fix",
     "package": "yarn pack --filename lib/ts-lib-1.0.0.tgz",
     "prepublishOnly": "yarn build",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "keywords"

@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: path.resolve(process.cwd(), './examples/index.js'),
+  entry: path.resolve(process.cwd(), './examples/index.ts'),
   devtool: 'inline-source-map',
   module: {
     rules: [
