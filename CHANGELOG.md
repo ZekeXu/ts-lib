@@ -1,6 +1,15 @@
 # Changelog
 
  ts-lib
+## [1.1.0](https://github.com/ZekeXu/ts-lib/compare/v1.0.0...v1.1.0) (2019-07-02)
+
+
+### Bug Fixes
+
+* **build:** build lib error ([57d51ad](https://github.com/ZekeXu/ts-lib/commit/57d51ad))
+
+
+
 ## 1.0.0 (2019-07-02)
 
 
