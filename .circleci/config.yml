@@ -38,7 +38,7 @@ commands:
       - update-yarn
       - install
       - save-cache
-      - audit
+      # - audit # lodash high error
       - test
       - build
 

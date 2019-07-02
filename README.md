@@ -62,6 +62,8 @@ packages.json删除下面这行
 
 删除文件 ___.travis.yml___
 
+### 5. 使用 ```yarn audit```检测有漏洞的deps
+
 ## LICENSE
 
 ![GitHub](https://img.shields.io/github/license/zekexu/ts-lib.svg)
