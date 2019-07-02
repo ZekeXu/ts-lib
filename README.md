@@ -1,4 +1,7 @@
-# ts-lib@1.0.0
+# ts-lib
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/zekexu/ts-lib.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/zekexu/ts-lib.svg)
 
 TypeScript library initial code.
 
@@ -39,4 +42,5 @@ Commit推荐格式
 
 ## LICENSE
 
-MIT Copyright (c) 2019 ZekeXu
+![GitHub](https://img.shields.io/github/license/zekexu/ts-lib.svg)
+Copyright (c) 2019 ZekeXu
