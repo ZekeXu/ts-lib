@@ -4,6 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/zekexu/ts-lib.svg)
 [![Coverage Status](https://coveralls.io/repos/github/ZekeXu/ts-lib/badge.svg?branch=master)](https://coveralls.io/github/ZekeXu/ts-lib?branch=master)
 [![Build Status](https://travis-ci.org/ZekeXu/ts-lib.svg?branch=master)](https://travis-ci.org/ZekeXu/ts-lib)
+[![CircleCI](https://circleci.com/gh/ZekeXu/ts-lib/tree/master.svg?style=svg)](https://circleci.com/gh/ZekeXu/ts-lib/tree/master)
 
 TypeScript library initial code.
 
