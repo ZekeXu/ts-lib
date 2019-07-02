@@ -1,7 +1,9 @@
 import './index.scss';
-console.log(1);
-const a = 1;
+
+function main(a: number, b: number) {
+  return a + b > 5 ? 5 : a + b;
+}
 
 export {
-  a,
+  main,
 };

@@ -13,13 +13,14 @@ TypeScript library initial code.
 - TypeScript
 - Prettier + TSLint
 - Git Hooks
-- Unit Test(Jest)
+- Unit Test(Jest) && Coverage
 - commitlint
 - editorconfig
 - stylelint
 - changelog
-- commit提示 使用```yarn commit``` 代替 ```git commit```
+- commit提示 使用```yarn cm``` 代替 ```git commit```
 - Travis CI
+- Circle CI
 
 ## 二、需要修改的文件
 
@@ -45,7 +46,7 @@ TypeScript library initial code.
 <footer>
 ```
 
-### 4.私有项目可去掉 Travis CI 和 Coveralls
+### 4.私有项目可去掉 Travis CI、Circle CI 和 Coveralls
 
 ```bash
 yarn remove coveralls
@@ -61,7 +62,9 @@ packages.json删除下面这行
 }
 ```
 
-删除文件 ___.travis.yml___
+删除文件 **.travis.yml**
+
+删除文件 **.circleci/config.yml**
 
 ### 5. 使用 ```yarn audit```检测有漏洞的deps
 
