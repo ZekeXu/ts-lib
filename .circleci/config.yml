@@ -24,8 +24,8 @@ commands:
   save-cache:
     steps:
       - save_cache:
-        paths:
-          - node_modules
+          paths:
+            - node_modules
   build:
     steps:
       - run:
