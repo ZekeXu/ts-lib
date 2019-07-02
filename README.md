@@ -2,6 +2,8 @@
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/zekexu/ts-lib.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zekexu/ts-lib.svg)
+[![Coverage Status](https://coveralls.io/repos/github/ZekeXu/ts-lib/badge.svg?branch=master)](https://coveralls.io/github/ZekeXu/ts-lib?branch=master)
+[![Build Status](https://travis-ci.org/ZekeXu/ts-lib.svg?branch=master)](https://travis-ci.org/ZekeXu/ts-lib)
 
 TypeScript library initial code.
 
@@ -16,6 +18,7 @@ TypeScript library initial code.
 - stylelint
 - changelog
 - commit提示 使用```yarn commit``` 代替 ```git commit```
+- Travis CI
 
 ## 二、需要修改的文件
 
