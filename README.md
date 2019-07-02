@@ -26,14 +26,15 @@ TypeScript library initial code.
 
 ## 三、参考
 
-推荐目录结构
+### 1.推荐目录结构
+
 ![Folder](folder_demo.png)
 
-参考链接
+### 2.参考链接
 
 [changelog format](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.0.0/README.md)
 
-Commit推荐格式
+### 3.Commit推荐格式
 
 ```bash
 <type>(<scope>): <subject>
@@ -42,6 +43,24 @@ Commit推荐格式
 <BLANK LINE>
 <footer>
 ```
+
+### 4.私有项目可去掉 Travis CI 和 Coveralls
+
+```bash
+yarn remove coveralls
+```
+
+packages.json删除下面这行
+
+```json
+{
+  "scripts": {
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  }
+}
+```
+
+删除文件 ___.travis.yml___
 
 ## LICENSE
 
