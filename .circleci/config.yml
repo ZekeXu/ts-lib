@@ -24,6 +24,7 @@ commands:
   save-cache:
     steps:
       - save_cache:
+          key: v{{ .Environment.CIRCLE_CACHE_VERSION }}-{{ arch }}-npm-lock-{{ .Branch }}-{{ .Environment.CIRCLE_JOB }}-{{ checksum "yarn.lock" }}
           paths:
             - node_modules
   build:
@@ -44,12 +45,12 @@ commands:
 jobs:
   v10:
     docker:
-      - image: node:10
+      - image: "node:10"
     steps:
       - run-node
   v12:
     docker:
-      - image: node:12
+      - image: "node:12"
     steps:
       - run-node
 
