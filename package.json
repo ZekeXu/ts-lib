@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "commit": "git-cz",
+    "cm": "git-cz",
     "start": "webpack-dev-server --content-base examples --mode development --config config/webpack.dev.js --hot",
     "build": "rm -rf lib && webpack --mode production --config config/webpack.lib.js",
     "format": "tslint -c tslint.json --fix -p .",
