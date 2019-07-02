@@ -5,12 +5,14 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "commit": "git-cz",
     "start": "webpack-dev-server --content-base examples --mode development --config config/webpack.dev.js --hot",
     "build": "rm -rf lib && webpack --mode production --config config/webpack.lib.js",
     "format": "tslint -c tslint.json --fix -p .",
     "format-style": "prettier src/**/*.css src/**/*.scss --write && stylelint src/index.scss --fix",
     "package": "yarn pack --filename lib/ts-lib-1.0.0.tgz",
     "prepublishOnly": "yarn build",
+    "release": "standard-version",
     "test": "jest --coverage"
   },
   "keywords": [
@@ -25,7 +27,9 @@
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/prompt": "^8.0.0",
     "@types/jest": "^24.0.15",
+    "commitizen": "^3.1.1",
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "fsevents": "^2.0.1",
@@ -36,6 +40,7 @@
     "prettier": "^1.18.2",
     "sass": "^1.22.1",
     "sass-loader": "^7.1.0",
+    "standard-version": "^6.0.1",
     "style-loader": "^0.23.1",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended-scss": "^3.3.0",
@@ -63,5 +68,13 @@
     "**/*.test.{ts,tsx}": [
       "yarn run test"
     ]
+  },
+  "standard-version": {
+    "changelogHeader": "# Changelog\n\n ts-lib"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
   }
 }
