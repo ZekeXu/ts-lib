@@ -1,6 +1,28 @@
 # Changelog
 
  ts-lib
+## [1.2.0](https://github.com/ZekeXu/ts-lib/compare/v1.1.0...v1.2.0) (2019-07-02)
+
+
+### Bug Fixes
+
+* **audit:** remove audit ([536dc74](https://github.com/ZekeXu/ts-lib/commit/536dc74))
+* **circleci:** configuration error ([167483e](https://github.com/ZekeXu/ts-lib/commit/167483e))
+* **circleci:** save_cache key ([076fd02](https://github.com/ZekeXu/ts-lib/commit/076fd02))
+* **circleui:** save-cache ([9557a3e](https://github.com/ZekeXu/ts-lib/commit/9557a3e))
+* **coveralls:** yarn add coveralls ([5f3bd6c](https://github.com/ZekeXu/ts-lib/commit/5f3bd6c))
+* **install:** remove fsevents from devDependences ([bfc1e8d](https://github.com/ZekeXu/ts-lib/commit/bfc1e8d))
+* **travis:** uninstall yarn ([7d0bcf1](https://github.com/ZekeXu/ts-lib/commit/7d0bcf1))
+
+
+### Features
+
+* **ci:** support circleci ([e160a4c](https://github.com/ZekeXu/ts-lib/commit/e160a4c))
+* **ci:** support travis ci ([f43a328](https://github.com/ZekeXu/ts-lib/commit/f43a328))
+* **packages:** upgrade ([63051ca](https://github.com/ZekeXu/ts-lib/commit/63051ca))
+
+
+
 ## [1.1.0](https://github.com/ZekeXu/ts-lib/compare/v1.0.0...v1.1.0) (2019-07-02)
 
 
