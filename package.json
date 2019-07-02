@@ -13,7 +13,8 @@
     "package": "yarn pack --filename lib/ts-lib-1.0.0.tgz",
     "prepublishOnly": "yarn build",
     "release": "standard-version",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "keywords": [
     "keywords"

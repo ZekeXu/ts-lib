@@ -10,3 +10,4 @@ lib
 /*.d.ts
 /*.tgz
 coverage
+yarn-error.log
