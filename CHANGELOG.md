@@ -1,6 +1,13 @@
 # Changelog
 
  ts-lib
+## [1.5.0](https://zekexu.github.com/ZekeXu/ts-lib/compare/v1.4.0...v1.5.0) (2019-09-25)
+
+
+### Features
+
+* **package:** upgrade packages ([88b72af](https://zekexu.github.com/ZekeXu/ts-lib/commit/88b72af))
+
 ## [1.4.0](https://zekexu.github.com/ZekeXu/ts-lib/compare/v1.3.0...v1.4.0) (2019-08-04)
 
 
